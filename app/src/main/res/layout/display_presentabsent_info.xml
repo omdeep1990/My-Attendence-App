@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/your_Name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/your_Name"
+        android:layout_below="@+id/your_Name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="Your Name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/present_layout"
+        android:layout_marginLeft="230dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/present"
+        android:layout_below="@+id/present_layout"
+        android:layout_marginLeft="230dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/absent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:text="Absent"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/absent"
+        android:layout_below="@id/absent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:text="Absent"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+</RelativeLayout>

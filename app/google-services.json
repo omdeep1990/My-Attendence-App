@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1042627676302",
+    "project_id": "my-attendance-app-dbef3",
+    "storage_bucket": "my-attendance-app-dbef3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042627676302:android:b368eae321b0ecd2b621df",
+        "android_client_info": {
+          "package_name": "com.omdeep.myattendenceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042627676302-av84dt11nud56skdi5s25okc8f3qqakn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWpDfmElMMj6aoUsyuhzbxTbnBC1z6auc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042627676302-av84dt11nud56skdi5s25okc8f3qqakn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

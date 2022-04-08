@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="30dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    app:cardElevation="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/display_profile_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:src="@drawable/profile"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+            app:strokeWidth="10dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/your_name"
+        android:layout_toRightOf="@id/display_profile_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/joining_date"
+        android:layout_toRightOf="@id/display_profile_view"
+        android:layout_below="@id/your_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joining Date"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
